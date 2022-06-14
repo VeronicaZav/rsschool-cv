@@ -1,133 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/rsschool-cv/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="wrapper">
-      <header class="header">
-            <div class="avatar">
-                <img src="./img/avatar.png" alt="avatar" class="avatar_1" width="378" height="378">
-            </div>
-            <div class="name">
-                <h1 class="name_sername">Veronica Zavadskay</h1>
-                <h2 class="title">Front-end developer</h2>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about__me" class="item">About me</a></li>
+          <li class="nav__item"><a href="#contacts" class="item">Contacts</a></li>
+          <li class="nav__item"><a href="#skills" class="item">Skills</a></li>
+          <li class="nav__item"><a href="#education" class="item">Education</a></li>
+          <li class="nav__item"><a href="#projects" class="item">Projects</a></li>
+          <li class="nav__item"><a href="#code" class="item">Code example</a></li>
+        </ul>
+      </nav>
+      <h1 class="name">Veronica Zavadskay</h1>
+      <div class="title__container">
+        <hr class="line">
+        <div class="border__title">
+          <h3 class="subtitle">Front-end developer</h3>
+        </div>
+        <hr class="line">
+      </div>
+    </header>    
+    <main class="container">
+      <section id="about__me" class="about__me">
+        <h2 class="title about__title">About<br>me</h2>
+        <div class="about__container">
+          <div class="photo"></div>
+          <div class="text">
+            <span class="text__rotate">Hello.</span>
+            <p class="about__text">My name is Veronica. I am a beginner frontend developer. 
+              I am a responsible and organized person. I like to organize any process. 
+              If something does not work out, I get angry and despair, but the desire to reach the end makes me not give up.</p>
           </div>
-      </header>
-      <main class="content">
-          <section class="section_contacts_proskills">
-              <div class="contacts_proskills">
-                  <div class="contacts">
-                      <h2 class="title_2">Contacts:</h2>
-                      <div class="list">
-                          <ul class="contacts_list">
-                              <li class="icon">
-                                  <img src="./img/location.png" alt="loc" class="icon_loc" width="50" height="50">
-                                  <span class="icon_text">Minsk, Belarus</span>
-                              </li>
-                              <li class="icon">
-                                  <img src="./img/phone.png" alt="phon" class="icon_ph">
-                                  <span class="icon_text">+375 (44) 518 73 97</span>
-                              </li>
-                              <li class="icon">
-                                  <img src="./img/mail.png" alt="email" class="icon_em">
-                                  <span class="icon_text">VeronicaZAV@yandex.by</span>
-                              </li>
-                              <li class="icon">
-                                  <img src="./img/discord.png" alt="discord" class="icon_dic" width="50" height="50">
-                                  <span class="icon_text">Veronika_Zav#0245</span>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="proskills">
-                      <h2 class="title_2">Pro skills:</h2>
-                      <div class="list_2">
-                          <ul class="skills_list">
-                              <li>WordPress</li>
-                              <li>Joomla</li>
-                              <li>HTML 5</li>
-                              <li>CSS 3</li>
-                              <li>SQL</li>
-                              <li>Photoshop</li>
-                              <li>Figma</li>
-                              <li>MS Office</li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="language">
-                      <h2 class="title_2">Language:</h2>
-                      <div class="lang">English (Pre-intermedia)</div>
-                  </div> 
-              </div>
-          </section>
-          <section class="section_aboutme_education_experience">
-              <div class="aboutme">
-                  <h2 class="title_2">About me:</h2>
-                  <p class="ab_me">Hello. My name is Veronica Zavadskaya. I want to get additional skills. To do this, I signed up for courses from RSS. Become an excellent specialist and go up the career ladder. I am a responsible and organized person. I like to organize any process. If something does not work out, I am angry and desperate, but the desire to reach the end makes me not give up.</p>
-              </div>
-              <div class="education">
-                  <h2 class="title_2">Education:</h2>
-                  <div class="educ">
-                      <div class="university">
-                          <div class="univer">
-                              <p>Yanka Kupala</p>
-                              <p>Stage University of Grodno</p>
-                          </div>
-                          <p class="period">Sep 2015 - Jun 2019</p>
-                      </div>
-                      <div class="qualification">
-                          <p>Software Engineer</p>
-                          <p>(Economist)</p>
-                      </div>
-                  </div>  
-              </div>
-              <div class="experience">
-                  <h2 class="title_2">Experience:</h2>
-                  <div class="exper">
-                      <div class="exp">
-                          <p>RSSchool</p>
-                          <p class="period">Dec 2021 - Present</p>
-                      </div>
-                      <div class="student_exempel">
-                          <p>Student</p>
-                          <a href="https://github.com/VeronicaZav/rsschool-cv/tree/gh-pages" class="task">Example of a task</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="exempel_code">
-                  <h2 class="title_2">Exampel code:</h2>
-                  <pre class="code">
-                      <code>function toBinary(n){
-                        n = +(n).toString(2);
-                        return n;
-                      }</code>
-                  </pre>
-              </div>
-          </section>
-      </main>
-      <footer class="footer">
-              <div class="footer-menu">
-                  <div class="items">
-                      <div class="ic">
-                          <a href="https://github.com/VeronicaZav">
-                              <img src="./img/github.png" alt="github" class="item"></a>
-                          <a href="https://www.instagram.com/veronmkhlk/">
-                              <img src="./img/instagram.png" alt="instagram" class="item"></a>
-                          <a href="https://rs.school/js-stage0/">
-                              <img src="./img/rs_school_js.svg" alt="rs-school" class="item_1"></a>
-                      </div>
-                      <time datetime="2021">2021</time>
-                  </div>
-              </div>
-      </footer>
-  </div>  
-</body>
+        </div> 
+      </section>
+      <section id="skills" class="skills">
+        <h2 class="title skills__title">Skills</h2>
+        <div class="skills__container">
+          <ul class="skills__items">
+            <li class="skill__item">
+              <img src="./assets/icon/html5.svg" alt="icon html5" class="icon__img" width="70" height="70">
+              <p>HTML 5</p>
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icon/css3.svg" alt="icon css3" class="icon__img" width="70" height="70">
+              <p>CSS 3</p>
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icon/javascript.svg" alt="icon javascript" class="icon__img" width="70" height="70">
+              <p>Java Script</p>
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icon/git.svg" alt="icon git" class="icon__img" width="70" height="70">
+              <p>Git</p>
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icon/photoshop.svg" alt="icon photoshop" class="icon__img" width="70" height="70">
+              <p>Photoshop</p>
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icon/Figma.svg" alt="icon figma" class="icon__img" width="70" height="70">
+              <p>Figma</p>
+            </li>
+          </ul> 
+        </div>
+      </section>
+      <section id="education" class="education">
+        <h2 class="title title__educ">Education</h2>
+        <div class="educ__lang">
+          <div class="educ">Yanka Kupala<br>Stage University of Grodno<br>Sep 2015 - Jun 2019</div>
+          <div class="lang">
+            <p class="lan">English</p>
+            <p class="level">Pre-intermedia</p>
+          </div>
+        </div>
+      </section>
+      <section id="contacts" class="contacts">
+        <h2 class="title contact__title">Contact<br>me</h2>
+        <div class="contact">
+          <ul class="contacts__items">
+            <li class="contact__item">
+              <button class="button__contact">DISCORD</button>
+              <p class="contact__text">VeronicaZav#0245</p>
+            </li>
+            <li class="contact__item">
+              <button class="button__contact">E-MAIL</button>
+              <p class="contact__text">VeronicaZAV@yandex.by</p>
+            </li>
+            <li class="contact__item">
+              <button class="button__contact">INSTAGRAM</button>
+              <p class="contact__text">veronicazvdsk</p>
+            </li>
+            <li class="contact__item">
+              <button class="button__contact">TELEGRAM</button>
+              <p class="contact__text">+375 44 518 73 97</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="code" class="code">
+        <h2 class="title code__title">Code</h2>
+        <pre class="path__code">
+          <code>function nthFibo(n) {
+            if(n==1){
+              return 0
+            }
+            else if(n==2||n==3){
+              return 1
+            }
+            else{
+              return nthFibo(n-1)+nthFibo(n-2)
+            }
+            
+          }</code>
+        </pre>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="title projects__title">Projects</h2>
+        <div class="slider__container">
+          <ul class="slides">
+            <li id="slide__1" class="slide__item__li">
+              <p class="slide__name">Portfolio</p>
+              <a href="https://rolling-scopes-school.github.io/veronicazav-JSFEPRESCHOOL/portfolio/" class="slide__item">
+                <img src="./assets/img/slide-1.jpg" alt="project1" class="slide__img" width="750" height="480">
+              </a>
+            </li>
+            <li id="slide__2" class="slide__item__li">
+              <p class="slide__name">Audio-player</p>
+              <a href="https://rolling-scopes-school.github.io/veronicazav-JSFEPRESCHOOL/audio-player/" class="slide__item">
+                <img src="./assets/img/slide-2.jpg" alt="project2" class="slide__img" width="750" height="480">
+              </a>
+            </li>
+            <li id="slide__3" class="slide__item__li">
+              <p class="slide__name">Random game</p>
+              <a href="https://rolling-scopes-school.github.io/veronicazav-JSFEPRESCHOOL/random-game/" class="slide__item">
+                <img src="./assets/img/slide-3.jpg" alt="project3" class="slide__img" width="750" height="480">
+              </a>
+            </li>
+            <li id="slide__4" class="slide__item__li">
+              <p class="slide__name">Shelter</p>
+              <a href="https://rolling-scopes-school.github.io/veronicazav-JSFE2022Q1/shelter/pages/main/index.html" class="slide__item">
+                <img src="./assets/img/slide-4.jpg" alt="project4" class="slide__img" width="750" height="480">
+              </a>
+            </li>
+            <li id="slide__5" class="slide__item__li">
+              <p class="slide__name">CSS Mem Slider</p>
+              <a href="https://veronicazav.github.io/cssMemSlider/cssMemSlider/index.html" class="slide__item">
+                <img src="./assets/img/slide-5.jpg" alt="project5" class="slide__img" width="750" height="480">
+              </a>
+            </li>
+          </ul>
+          <ul class="mini__slides">
+            <li class="mini__slide">
+              <a href="#slide__1" class="mini__slide__item">
+                <img src="./assets/img/slide-1.jpg" alt="" class="mini__slide__img" width="150" height="90">
+              </a>
+            </li>
+            <li class="mini__slide">
+              <a href="#slide__2" class="mini__slide__item">
+                <img src="./assets/img/slide-2.jpg" alt="" class="mini__slide__img" width="150" height="90">
+              </a>
+            </li>
+            <li class="mini__slide">
+              <a href="#slide__3" class="mini__slide__item">
+                <img src="./assets/img/slide-3.jpg" alt="" class="mini__slide__img" width="150" height="90">
+              </a>
+            </li>
+            <li class="mini__slide">
+              <a href="#slide__4" class="mini__slide__item">
+                <img src="./assets/img/slide-4.jpg" alt="" class="mini__slide__img" width="150" height="90">
+              </a>
+            </li>
+            <li class="mini__slide">
+              <a href="#slide__5" class="mini__slide__item">
+                <img src="./assets/img/slide-5.jpg" alt="" class="mini__slide__img" width="150" height="90">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="https://github.com/VeronicaZav">
+          <img src="./assets/icon/github.svg" alt="github" class="footer__item"></a>
+        <a href="https://rs.school/js-stage0/">
+          <img src="./assets/icon/rs_school_js.svg" alt="rs-school" class="footer__item"></a>
+        <time datetime="2021">2022</time>
+      </div> 
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
